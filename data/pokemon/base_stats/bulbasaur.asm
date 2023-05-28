@@ -1,6 +1,6 @@
 	db DEX_BULBASAUR ; pokedex id
 
-	db  50,  45,  53,  47,  65
+	db  45,  54,  49,  45,  65
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GRASS ; type
