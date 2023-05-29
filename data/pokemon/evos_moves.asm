@@ -295,13 +295,15 @@ IvysaurEvosMoves:
 	db EV_LEVEL, 32, VENUSAUR
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 22, POISONPOWDER
+	db 7, VINE_WHIP
+	db 10, LEECH_SEED
+	db 14, STUN_SPORE
+	db 18, SLAM
+	db 22, SLEEP_POWDER
+	db 26, GROWTH
 	db 30, RAZOR_LEAF
-	db 38, GROWTH
-	db 46, SLEEP_POWDER
-	db 54, SOLARBEAM
+	db 38, PETAL_DANCE
+	db 45, SOLARBEAM
 	db 0
 
 ExeggutorEvosMoves:
@@ -1469,7 +1471,7 @@ MissingNo7AEvosMoves:
 
 CaterpieEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 7, METAPOD
+	db EV_LEVEL, 10, METAPOD
 	db 0
 ; Learnset
 	db 0
@@ -1750,24 +1752,28 @@ BulbasaurEvosMoves:
 ; Learnset
 	db 7, VINE_WHIP
 	db 10, LEECH_SEED
-	db 20, POISONPOWDER
+	db 14, STUN_SPORE
+	db 16, SLAM
+	db 20, SLEEP_POWDER
+	db 24, GROWTH
 	db 27, RAZOR_LEAF
-	db 34, GROWTH
-	db 41, SLEEP_POWDER
-	db 48, SOLARBEAM
+	db 34, PETAL_DANCE
+	db 41, SOLARBEAM
 	db 0
 
 VenusaurEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 22, POISONPOWDER
-	db 30, RAZOR_LEAF
-	db 43, GROWTH
-	db 55, SLEEP_POWDER
-	db 65, SOLARBEAM
+	db 7, VINE_WHIP
+	db 10, LEECH_SEED
+	db 14, STUN_SPORE
+	db 18, SLAM
+	db 22, SLEEP_POWDER
+	db 26, GROWTH
+	db 33, RAZOR_LEAF
+	db 40, PETAL_DANCE
+	db 48, SOLARBEAM
 	db 0
 
 TentacruelEvosMoves:
