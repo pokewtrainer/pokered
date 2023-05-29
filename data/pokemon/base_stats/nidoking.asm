@@ -1,9 +1,9 @@
 	db DEX_NIDOKING ; pokedex id
 
-	db  81,  92,  77,  85,  75
+	db  81,  92,  87,  85,  80
 	;   hp  atk  def  spd  spc
 
-	db POISON, GROUND ; type
+	db FIRE, FIGHTING ; type
 	db 45 ; catch rate
 	db 195 ; base exp
 
