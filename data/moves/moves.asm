@@ -50,7 +50,7 @@ Moves:
 	move THRASH,       THRASH_PETAL_DANCE_EFFECT,   90, NORMAL,       100, 20
 	move DOUBLE_EDGE,  RECOIL_EFFECT,              100, NORMAL,       100, 15
 	move TAIL_WHIP,    DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
-	move POISON_STING, POISON_SIDE_EFFECT1,         15, POISON,       100, 35
+	move POISON_STING, POISON_SIDE_EFFECT1,         35, POISON,       100, 35
 	move TWINEEDLE,    TWINEEDLE_EFFECT,            25, BUG,          100, 20
 	move PIN_MISSILE,  TWO_TO_FIVE_ATTACKS_EFFECT,  18, BUG,           95, 20
 	move LEER,         DEFENSE_DOWN1_EFFECT,         0, NORMAL,       100, 30
@@ -61,12 +61,12 @@ Moves:
 	move SUPERSONIC,   CONFUSION_EFFECT,             0, NORMAL,        55, 20
 	move SONICBOOM,    SPECIAL_DAMAGE_EFFECT,        1, NORMAL,        90, 20
 	move DISABLE,      DISABLE_EFFECT,               0, NORMAL,        55, 20
-	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    40, POISON,       100, 30
-	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,         100, 25
+	move ACID,         DEFENSE_DOWN_SIDE_EFFECT,    50, POISON,       100, 25
+	move EMBER,        BURN_SIDE_EFFECT1,           40, FIRE,         100, 30
 	move FLAMETHROWER, BURN_SIDE_EFFECT1,           95, FIRE,         100, 15
 	move MIST,         MIST_EFFECT,                  0, ICE,          100, 30
-	move WATER_GUN,    NO_ADDITIONAL_EFFECT,        40, WATER,        100, 25
-	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,         80,  5
+	move WATER_GUN,    NO_ADDITIONAL_EFFECT,        40, WATER,        100, 30
+	move HYDRO_PUMP,   NO_ADDITIONAL_EFFECT,       120, WATER,         85,  5
 	move SURF,         NO_ADDITIONAL_EFFECT,        95, WATER,        100, 15
 	move ICE_BEAM,     FREEZE_SIDE_EFFECT,          95, ICE,          100, 10
 	move BLIZZARD,     FREEZE_SIDE_EFFECT,         120, ICE,           85,  5
@@ -84,10 +84,10 @@ Moves:
 	move ABSORB,       DRAIN_HP_EFFECT,             20, GRASS,        100, 25
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             60, GRASS,        100, 15
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,         90, 10
-	move GROWTH,       SPECIAL_UP1_EFFECT,           0, NORMAL,       100, 40
+	move GROWTH,       SPECIAL_UP1_EFFECT,           0, GRASS,        100, 40
 	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        55, GRASS,         95, 25
 	move SOLARBEAM,    CHARGE_EFFECT,              120, GRASS,        100, 10
-	move POISONPOWDER, POISON_EFFECT,                0, GRASS,         95, 35
+	move POISONPOWDER, POISON_EFFECT,                0, GRASS,         90, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         85, 30
 	move SLEEP_POWDER, SLEEP_EFFECT,                 0, GRASS,         75, 15
 	move PETAL_DANCE,  CONFUSION_SIDE_EFFECT,       90, GRASS,        100, 15
@@ -133,9 +133,9 @@ Moves:
 	move SELFDESTRUCT, EXPLODE_EFFECT,             130, NORMAL,       100,  5
 	move EGG_BOMB,     NO_ADDITIONAL_EFFECT,       100, NORMAL,        75, 10
 	move LICK,         PARALYZE_SIDE_EFFECT2,       20, GHOST,        100, 30
-	move SMOG,         POISON_SIDE_EFFECT2,         20, POISON,        70, 20
-	move SLUDGE,       POISON_SIDE_EFFECT2,         65, POISON,       100, 20
-	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,        85, 20
+	move SMOG,         POISON_SIDE_EFFECT1,         40, POISON,       100, 25
+	move SLUDGE,       POISON_SIDE_EFFECT1,         65, POISON,       100, 20
+	move BONE_CLUB,    FLINCH_SIDE_EFFECT1,         65, GROUND,       100, 20
 	move FIRE_BLAST,   BURN_SIDE_EFFECT2,          120, FIRE,          85,  5
 	move WATERFALL,    NO_ADDITIONAL_EFFECT,        80, WATER,        100, 15
 	move CLAMP,        TRAPPING_EFFECT,             35, WATER,         75, 10
@@ -158,7 +158,7 @@ Moves:
 	move BUBBLE,       SPEED_DOWN_SIDE_EFFECT,      30, WATER,        100, 35
 	move DIZZY_PUNCH,  NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 10
 	move SPORE,        SLEEP_EFFECT,                 0, GRASS,        100, 15
-	move FLASH,        ACCURACY_DOWN1_EFFECT,        0, NORMAL,        70, 20
+	move FLASH,        ACCURACY_DOWN1_EFFECT,        0, NORMAL,       100, 20
 	move PSYWAVE,      SPECIAL_DAMAGE_EFFECT,        1, PSYCHIC_TYPE,  80, 15
 	move SPLASH,       SPLASH_EFFECT,                0, NORMAL,       100, 40
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, POISON,       100, 40
