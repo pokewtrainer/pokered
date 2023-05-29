@@ -1,6 +1,6 @@
 	db DEX_VENUSAUR ; pokedex id
 
-	db  80,  90,  83,  82, 100
+	db  80,  90,  84,  81, 100
 	;   hp  atk  def  spd  spc
 
 	db GRASS, GRASS ; type
