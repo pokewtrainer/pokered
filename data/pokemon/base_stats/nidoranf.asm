@@ -1,9 +1,9 @@
 	db DEX_NIDORAN_F ; pokedex id
 
-	db  55,  47,  52,  41,  40
+	db  55,  47,  52,  41,  55
 	;   hp  atk  def  spd  spc
 
-	db POISON, POISON ; type
+	db WATER, WATER ; type
 	db 235 ; catch rate
 	db 59 ; base exp
 
