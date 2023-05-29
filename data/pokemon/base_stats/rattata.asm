@@ -1,6 +1,6 @@
 	db DEX_RATTATA ; pokedex id
 
-	db  30,  56,  35,  72,  25
+	db  43,  68,  40,  72,  50
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
