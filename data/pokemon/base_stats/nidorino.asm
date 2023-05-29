@@ -1,9 +1,9 @@
 	db DEX_NIDORINO ; pokedex id
 
-	db  61,  72,  57,  65,  55
+	db  61,  72,  67,  65,  60
 	;   hp  atk  def  spd  spc
 
-	db POISON, POISON ; type
+	db FIRE, FIRE ; type
 	db 120 ; catch rate
 	db 118 ; base exp
 
