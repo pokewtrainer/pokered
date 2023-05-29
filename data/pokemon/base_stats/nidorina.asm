@@ -1,9 +1,9 @@
 	db DEX_NIDORINA ; pokedex id
 
-	db  70,  62,  67,  56,  55
+	db  70,  62,  67,  56,  70
 	;   hp  atk  def  spd  spc
 
-	db POISON, POISON ; type
+	db WATER, WATER ; type
 	db 120 ; catch rate
 	db 117 ; base exp
 
