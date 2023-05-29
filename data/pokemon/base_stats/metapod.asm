@@ -1,9 +1,9 @@
 	db DEX_METAPOD ; pokedex id
 
-	db  50,  20,  55,  30,  25
+	db  60,  50,  75,  50,  75
 	;   hp  atk  def  spd  spc
 
-	db BUG, BUG ; type
+	db BUG, PSYCHIC ; type
 	db 120 ; catch rate
 	db 72 ; base exp
 
