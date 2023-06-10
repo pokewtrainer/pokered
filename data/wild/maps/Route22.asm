@@ -10,7 +10,6 @@ Route22WildMons:
 	db  5, JIGGLYPUFF
 	db  4, NIDORAN_M
 	db  4, NIDORAN_M
-ENDC
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate
